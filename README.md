@@ -1,15 +1,36 @@
-## Hello world
+# Dự án Hello World bằng TypeScript
 
-Project sử dụng Express.js + Typescript tạo server in ra **Hello world**
+## Công nghệ sử dụng
 
-##Yêu cầu 
+* Node.js
+* TypeScript
+* ESLint
+* Prettier
 
-Node.js >=16
-npm >=8
+## Hướng dẫn cài đặt và sử dụng
 
-## Cài đặt
+### Yêu cầu
 
+* Node.js (khuyên dùng bản LTS)
+* pnpm
+
+### Cài đặt
+
+1.  Clone repository này về máy:
+    ```bash
+    git clone [https://github.com/vinhchosoai/Hello_world.git](https://github.com/vinhchosoai/Hello_world.git)
+    ```
+2.  Di chuyển vào thư mục dự án:
+    ```bash
+    cd Hello_world
+    ```
+3.  Cài đặt các thư viện cần thiết:
+    ```bash
+    pnpm install
+    ```
+
+### Chạy dự án
+
+Để chạy dự án ở chế độ phát triển (development), sử dụng lệnh:
 ```bash
-git clone https://github.com/<username>/<repo-name>.git
-cd <repo-name>
-npm install
+pnpm dev
